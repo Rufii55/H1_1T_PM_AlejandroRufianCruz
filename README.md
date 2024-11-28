@@ -1,28 +1,34 @@
 # H1_1T_PM_AlejandroRufianCruz
 
 📜 Descripción
-Este proyecto consiste en la creación de un juego tipo Flappy Bird llamado H1_1T_PM_AlejandroRufianCruz. El juego está diseñado con un enfoque profesional y visualmente atractivo, ofreciendo una experiencia de usuario fluida y entretenida.
+Es un juego de tipo clicker inspirado en títulos como Tap Titans y Cookie Clicker. Los jugadores ganan dinero al hacer clics, pueden comprar ítems que aumentan su nivel y consultar un ranking de usuarios.
+
 
 📌 Características principales:
-Pájaro personalizado: Un personaje principal con diseño único.
-Obstáculos dinámicos: Tubos similares a los de Flappy Bird que se mueven en la pantalla.
-Controles sencillos: Toca la pantalla para mantener el vuelo.
-Interfaz atractiva: Diseño moderno y profesional que mejora la experiencia de usuario.
+
+Sistema de clics: Gana dinero haciendo clics en la pantalla.
+Compra de ítems: Mejora tu nivel adquiriendo ítems con el dinero ganado.
+Ranking persistente: Consulta la clasificación de los jugadores, almacenada en SharedPreferences.
+Navegación básica: Interfaz fluida con tres pantallas principales: inicio, juego y fin de partida.
+
+
 ⚙️ Instalación y ejecución
+
 Requisitos previos:
 Android Studio (versión recomendada: 2022.2.1 o superior)
 Java (versión 11 o superior)
 Emulador Android o dispositivo físico
+
 Pasos para ejecutar:
 Clona el repositorio:
-bash
-Copiar código
 git clone https://github.com/usuario/nombre-del-repo.git
 Abre el proyecto en Android Studio.
 Construye y ejecuta la aplicación en un emulador o dispositivo Android.
+
+
 🛠️ Estructura del proyecto
-Copiar código
-📁 com.example.empresa
+
+📁 com.example.tapsouls
    ├── 📄 MainActivity.java
    ├── 📄 GameActivity.java
    ├── 📄 EndGameActivity.java
@@ -32,11 +38,15 @@ Copiar código
    │   ├── 📄 activity_end_game.xml
    │   └── 📁 drawable/
    └── 📄 AndroidManifest.xml
+   
 Clases principales:
 MainActivity: Pantalla de inicio del juego.
-GameActivity: Lógica principal del juego, manejo del pájaro y obstáculos.
-EndGameActivity: Muestra la pantalla final y la puntuación.
+GameActivity: Lógica principal del juego, gestión de clics, dinero y niveles.
+EndGameActivity: Muestra el ranking y los resultados finales.
+
+
 🎮 Instrucciones de juego
-Toca la pantalla para mantener al pájaro volando.
-Evita los obstáculos (tubos).
-Supera tu récord obteniendo la máxima puntuación.
+
+Haz clic en la pantalla para ganar dinero.
+Compra ítems para subir de nivel y aumentar tus ganancias.
+Consulta el ranking para ver la clasificación de todos los jugadores.
