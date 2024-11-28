@@ -1,6 +1,7 @@
 # H1_1T_PM_AlejandroRufianCruz
 
 📜 Descripción
+
 Es un juego de tipo clicker inspirado en títulos como Tap Titans y Cookie Clicker. Los jugadores ganan dinero al hacer clics, pueden comprar ítems que aumentan su nivel y consultar un ranking de usuarios.
 
 
